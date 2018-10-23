@@ -1,0 +1,22 @@
+﻿.ex {
+	color: #fdff0d;
+}
+
+.tip{
+	color: #3e9181;
+	font-size: 18px;
+}
+
+.container {
+	padding: 100px 50px 100px 50px;
+	background-color: #f7d47f;
+}
+
+.active{
+	background-color: #000000;
+	color: #ff6a00;
+}
+.console{
+	font-size:20px;
+	color:#520d57;
+}

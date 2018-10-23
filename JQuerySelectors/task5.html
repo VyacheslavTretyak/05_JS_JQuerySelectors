@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Task 5</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="style.css" rel="stylesheet" />
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<h3>5. Отфильтровать элементы формы на jQuery.</h3>
+			<ul>
+				<li>Найти все элементы формы с классом from-control</li>
+				<li>Найти кнопки на странице и выделить их красной рамкой и желтым фоном</li>
+				<li>Найти все radio-элементы из одной группы (где gender это значение атрибута name у искомой группы переключателей)</li>
+			</ul>
+			<div>
+				<form>
+					<div class="form-group">
+						<label for="email">Email address</label>
+						<input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">						
+					</div>
+					<div class="form-group">
+						<label for="pass">Password</label>
+						<input type="password" class="form-control" id="pass" placeholder="Password">
+					</div>					
+					<p>Gender:</p>
+					<input type="radio" class="form-check-input" id="r1" name="gender" value="male">male
+					<input type="radio" class="form-check-input" id="r2" name="gender" value="female">female
+					<p>Answer:</p>
+					<input type="radio" class="form-check-input" id="r3" name="answer" value="yes">yes
+					<input type="radio" class="form-check-input" id="r4" name="answer" value="no">no	
+					<div>
+						<button type="submit" class="btn btn-primary">Submit</button>
+					</div>
+				</form>
+			</div>
+			<div class="tip">(Наведите курсор мыши на нужный пункт списка)</div>
+		</div>
+		<div>
+			<button class="btn" onclick="location.href='index.html'">Back</button>
+		</div>
+	</div>
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+	<script src="js5.js"></script>
+</body>
+</html>
